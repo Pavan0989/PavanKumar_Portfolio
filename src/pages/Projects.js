@@ -1,18 +1,32 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 
+// Update each entry's github link with your actual repository when available
 const projectsData = [
   {
-    title: "Portfolio Website",
-    description: "My personal website built with React and Tailwind CSS.",
-    link: "#",
+    title: "MedCare – DBMS-based Healthcare Portal",
+    description:
+      "Healthcare management platform featuring Admin-User authentication, patient/employee registration, appointment scheduling, and prescription modules. Role: Full-Stack Developer. Technologies: HTML, CSS, JavaScript, PHP, SQL.",
+    github: "https://github.com/Pavan0989/medcare",
   },
   {
-    title: "Todo App",
-    description: "A simple, efficient to-do list built with React.",
-    link: "#",
+    title: "Aadhar Camp Project",
+    description:
+      "System for automatic PDF generation of official letters and camp attendance management for government Aadhar camps. Role: Full-Stack Developer. Technologies: React.js, Tailwind CSS, MySQL.",
+    github: "https://github.com/Pavan0989/aadhar-camp",
   },
-  // Add more projects as needed
+  {
+    title: "AI-powered Surveillance and Intrusion Detection for 6TTR",
+    description:
+      "IoT-based surveillance platform with real-time border monitoring, OCR-based ID scanning, and facial recognition. Implemented two-factor personnel authentication, intrusion detection with sensors and AI, and vehicle authorization. Role: AI/ML & Web Developer. Technologies: Raspberry Pi, Python, YOLOv8, Flask, OCR.",
+    github: "https://github.com/Pavan0989/ai-surveillance",
+  },
+  {
+    title: "Dream Bid Properties – Real Estate Enquiry Website",
+    description:
+      "Website for property listings and secure enquiry management across Residential, Commercial, and Agricultural sectors for a real estate client. Handled backend, hosting, SSL, and basic website security. Role: Backend Developer, Hosting & Security. Technologies: PHP, MySQL, WordPress (Custom Theme), cPanel, SSL.",
+    link: "https://dreambidproperties.com/",
+  },
 ];
 
 function Projects() {
@@ -23,6 +37,16 @@ function Projects() {
         {projectsData.map((project, idx) => (
           <ProjectCard key={idx} {...project} />
         ))}
+      </div>
+      <div className="mt-10 text-center">
+        <a
+          href="https://github.com/Pavan0989"
+          className="inline-block bg-gray-900 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View More on GitHub
+        </a>
       </div>
     </section>
   );
