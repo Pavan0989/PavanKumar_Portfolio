@@ -32,9 +32,9 @@ const projectsData = [
 function Projects() {
   return (
     <section id="projects" className="flex flex-col items-center justify-center min-h-[70vh] py-20 px-4 fade-in">
-      <div className="rounded-2xl shadow-2xl p-12 w-full max-w-5xl border border-zinc-800 bg-gradient-to-br from-zinc-900 via-[#1a1333] to-[#2d1a4d] relative overflow-hidden">
-        <div className="absolute -inset-2 rounded-3xl pointer-events-none" style={{boxShadow: '0 0 80px 10px #7c3aed55, 0 0 120px 40px #2563eb22'}}></div>
-        <h2 className="text-4xl font-extrabold mb-10 text-white slide-in-up z-10 relative">Projects</h2>
+      <div className="rounded-2xl shadow-2xl p-12 w-full max-w-5xl border border-zinc-700 glass-enhanced relative overflow-hidden">
+        <div className="absolute -inset-2 rounded-3xl pointer-events-none" style={{boxShadow: '0 0 40px 5px rgba(59, 130, 246, 0.1)'}}></div>
+        <h2 className="text-4xl font-bold mb-10 text-blue-100 slide-in-up z-10 relative text-enhanced">Projects</h2>
         <div className="grid gap-10 md:grid-cols-2 z-10 relative">
           {projectsData.map((project, idx) => (
             <ProjectCard key={idx} {...project} />

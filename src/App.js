@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import StarryBackground from "./components/StarryBackground";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -8,9 +9,10 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="bg-gray-50 min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col relative">
+      <StarryBackground />
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow relative z-10">
         <Home />
         <About />
         <Projects />
