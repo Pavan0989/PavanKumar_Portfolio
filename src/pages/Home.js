@@ -4,58 +4,31 @@ function Home() {
   return (
     <section
       id="home"
-      className="flex flex-col items-center justify-center py-20 px-4 max-w-3xl mx-auto text-center"
+      className="flex flex-col items-center justify-center min-h-[70vh] py-20 px-4 fade-in"
     >
-      <h1 className="text-5xl font-bold mb-4">Hello, I'm Pavan Kumar</h1>
-      <p className="text-lg text-gray-700 mb-6 max-w-xl">
-        Motivated Full-Stack Developer with hands-on experience in React.js,
-        Node.js, PHP, and MySQL. Skilled at building secure, scalable & user-friendly
-        web applications, from front-end UI to back-end systems. Passionate about
-        delivering responsive, intuitive interfaces with strong problem-solving focus.
-      </p>
-
-      <div className="flex flex-col sm:flex-row gap-4">
-        <a
-          href="#projects"
-          className="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 transition"
-        >
-          See My Projects
-        </a>
-
-        <a
-          href="#contact"
-          className="border border-blue-600 text-blue-600 px-6 py-3 rounded shadow hover:bg-blue-600 hover:text-white transition"
-        >
-          Contact Me
-        </a>
-      </div>
-
-      <div className="mt-10 text-gray-600 space-y-1">
-        <p>Goa, India</p>
-        <p>Email: <a href="mailto:pavan123.pk813@gmail.com" className="underline hover:text-blue-600">pavan123.pk813@gmail.com</a></p>
-        <p>Phone: <a href="tel:+919130455109" className="underline hover:text-blue-600">+91 9130455109</a></p>
-        <p>
-          LinkedIn:{" "}
-          <a
-            href="https://www.linkedin.com/in/pavan-kumar092"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-blue-600"
-          >
-            www.linkedin.com/in/pavan-kumar092
-          </a>
+      <div className="rounded-2xl shadow-2xl p-12 w-full max-w-3xl text-center border border-zinc-800 bg-gradient-to-br from-zinc-900 via-[#1a1333] to-[#2d1a4d] relative overflow-hidden">
+        <div className="absolute -inset-2 rounded-3xl pointer-events-none" style={{boxShadow: '0 0 80px 10px #7c3aed55, 0 0 120px 40px #2563eb22'}}></div>
+        <h1 className="text-6xl font-extrabold mb-6 text-white drop-shadow-lg slide-in-up z-10 relative">Hello, I'm Pavan Kumar</h1>
+        <p className="text-2xl text-gray-200 mb-10 max-w-2xl mx-auto slide-in-up z-10 relative">
+          Motivated Full-Stack Developer with hands-on experience in React.js,
+          Node.js, PHP, and MySQL. Skilled at building secure, scalable & user-friendly
+          web applications, from front-end UI to back-end systems. Passionate about
+          delivering responsive, intuitive interfaces with strong problem-solving focus.
         </p>
-        <p>
-          GitHub:{" "}
+        <div className="flex flex-col sm:flex-row gap-6 justify-center slide-in-up z-10 relative">
           <a
-            href="https://github.com/Pavan0989"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-blue-600"
+            href="#projects"
+            className="bg-blue-600 text-white text-lg px-8 py-4 rounded-xl shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 font-bold"
           >
-            https://github.com/Pavan0989
+            See My Projects
           </a>
-        </p>
+          <a
+            href="#contact"
+            className="border-2 border-blue-400 text-blue-400 text-lg px-8 py-4 rounded-xl shadow-lg hover:bg-blue-400 hover:text-zinc-900 transition-all duration-300 transform hover:scale-105 font-bold"
+          >
+            Contact Me
+          </a>
+        </div>
       </div>
     </section>
   );

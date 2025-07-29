@@ -2,13 +2,13 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="bg-blue-700 text-white p-4 flex flex-col md:flex-row md:items-center md:justify-between">
-      <h1 className="text-2xl font-bold">Your Name</h1>
-      <nav className="mt-2 md:mt-0 space-x-4">
-        <a href="#home" className="hover:underline">Home</a>
-        <a href="#about" className="hover:underline">About</a>
-        <a href="#projects" className="hover:underline">Projects</a>
-        <a href="#contact" className="hover:underline">Contact</a>
+    <header className="bg-zinc-900 text-white shadow-lg p-6 flex flex-col md:flex-row md:items-center md:justify-between border-b border-zinc-800">
+      <h1 className="text-3xl font-extrabold tracking-tight mb-2 md:mb-0">Pavan Kumar</h1>
+      <nav className="space-x-8 text-lg font-semibold">
+        <a href="#home" className="hover:text-blue-400 transition-colors">Home</a>
+        <a href="#about" className="hover:text-blue-400 transition-colors">About</a>
+        <a href="#projects" className="hover:text-blue-400 transition-colors">Projects</a>
+        <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>
       </nav>
     </header>
   );

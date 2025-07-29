@@ -31,22 +31,25 @@ const projectsData = [
 
 function Projects() {
   return (
-    <section id="projects" className="max-w-4xl mx-auto py-16 px-4">
-      <h2 className="text-3xl font-bold mb-6">Projects</h2>
-      <div className="grid gap-6 md:grid-cols-2">
-        {projectsData.map((project, idx) => (
-          <ProjectCard key={idx} {...project} />
-        ))}
-      </div>
-      <div className="mt-10 text-center">
-        <a
-          href="https://github.com/Pavan0989"
-          className="inline-block bg-gray-900 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View More on GitHub
-        </a>
+    <section id="projects" className="flex flex-col items-center justify-center min-h-[70vh] py-20 px-4 fade-in">
+      <div className="rounded-2xl shadow-2xl p-12 w-full max-w-5xl border border-zinc-800 bg-gradient-to-br from-zinc-900 via-[#1a1333] to-[#2d1a4d] relative overflow-hidden">
+        <div className="absolute -inset-2 rounded-3xl pointer-events-none" style={{boxShadow: '0 0 80px 10px #7c3aed55, 0 0 120px 40px #2563eb22'}}></div>
+        <h2 className="text-4xl font-extrabold mb-10 text-white slide-in-up z-10 relative">Projects</h2>
+        <div className="grid gap-10 md:grid-cols-2 z-10 relative">
+          {projectsData.map((project, idx) => (
+            <ProjectCard key={idx} {...project} />
+          ))}
+        </div>
+        <div className="mt-14 text-center z-10 relative">
+          <a
+            href="https://github.com/Pavan0989"
+            className="inline-block bg-zinc-800 text-blue-400 px-8 py-3 rounded-xl border-2 border-blue-400 hover:bg-blue-400 hover:text-zinc-900 text-lg font-bold shadow-lg transition-all duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View More on GitHub
+          </a>
+        </div>
       </div>
     </section>
   );

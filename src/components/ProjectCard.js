@@ -2,14 +2,14 @@ import React from "react";
 
 function ProjectCard({ title, description, link, github }) {
   return (
-    <div className="bg-white shadow rounded-lg p-6 flex flex-col gap-3 border">
-      <h3 className="text-xl font-semibold">{title}</h3>
-      <p className="text-gray-700">{description}</p>
-      <div className="flex gap-4 mt-2">
+    <div className="bg-zinc-800 text-gray-100 shadow-xl rounded-2xl p-8 flex flex-col gap-4 border border-zinc-700 hover:scale-105 hover:shadow-2xl transition-all duration-300 fade-in">
+      <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
+      <p className="text-lg text-gray-300 mb-4">{description}</p>
+      <div className="flex gap-6 mt-auto">
         {link && (
           <a
             href={link}
-            className="text-green-600 hover:underline"
+            className="text-green-400 hover:underline hover:text-green-300 text-lg font-semibold"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -19,7 +19,7 @@ function ProjectCard({ title, description, link, github }) {
         {github && (
           <a
             href={github}
-            className="text-blue-600 hover:underline"
+            className="text-blue-400 hover:underline hover:text-blue-300 text-lg font-semibold"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,6 +30,5 @@ function ProjectCard({ title, description, link, github }) {
     </div>
   );
 }
-
 
 export default ProjectCard;
