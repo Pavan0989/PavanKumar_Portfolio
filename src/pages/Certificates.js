@@ -11,7 +11,7 @@ function Certificates() {
           <div className="bg-gradient-to-br from-zinc-800 via-zinc-900 to-black text-gray-100 shadow-xl rounded-2xl p-8 flex flex-col gap-4 border border-zinc-700 hover-lift hover-glow fade-in-scale relative overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 via-blue-600/10 to-cyan-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 shimmer"></div>
             <div className="relative z-10">
-              <div className="space-y-6 text-lg text-gray-200">
+              <div className="grid gap-6 md:grid-cols-2 text-lg text-gray-200">
                 {/* NPTEL Java DSA Certificate */}
                 <div className="p-4 rounded-lg bg-zinc-700/50 border border-zinc-600">
                   <div className="flex items-center gap-3 mb-2">
@@ -20,9 +20,9 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">Silver Medal – NPTEL Online Certification</p>
                   <a 
-                    href="#" 
+                    href="/media/certificates/DSA-Java-Result.pdf" 
+                    target="_blank"
                     className="text-green-400 hover:text-green-300 text-sm px-3 py-1 rounded-lg border border-green-400/30 hover:border-green-400 transition-all duration-300 hover:bg-green-400/10 inline-block"
-                    onClick={() => alert('Upload your Java DSA certificate PDF here')}
                   >
                     📄 View Certificate
                   </a>
@@ -36,9 +36,57 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">NPTEL Online Certification</p>
                   <a 
-                    href="#" 
+                    href="/media/certificates/TJOCP.jpg" 
+                    target="_blank"
                     className="text-green-400 hover:text-green-300 text-sm px-3 py-1 rounded-lg border border-green-400/30 hover:border-green-400 transition-all duration-300 hover:bg-green-400/10 inline-block"
-                    onClick={() => alert('Upload your Python certificate PDF here')}
+                  >
+                    📄 View Certificate
+                  </a>
+                </div>
+
+                {/* Solutions Architecture Job Simulation */}
+                <div className="p-4 rounded-lg bg-zinc-700/50 border border-zinc-600">
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="text-blue-400 text-xl">🏗️</span>
+                    <span className="font-semibold text-white">Solutions Architecture Job Simulation</span>
+                  </div>
+                  <p className="text-blue-400 text-sm mb-3">Virtual Job Simulation Certificate</p>
+                  <a 
+                    href="/media/certificates/AWS-solution.pdf" 
+                    target="_blank"
+                    className="text-blue-400 hover:text-blue-300 text-sm px-3 py-1 rounded-lg border border-blue-400/30 hover:border-blue-400 transition-all duration-300 hover:bg-blue-400/10 inline-block"
+                  >
+                    📄 View Certificate
+                  </a>
+                </div>
+
+                {/* Software Engineering Job Simulation */}
+                <div className="p-4 rounded-lg bg-zinc-700/50 border border-zinc-600">
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="text-purple-400 text-xl">⚙️</span>
+                    <span className="font-semibold text-white">Software Engineering Job Simulation</span>
+                  </div>
+                  <p className="text-blue-400 text-sm mb-3">Virtual Job Simulation Certificate</p>
+                  <a 
+                    href="/media/certificates/EA-Forage.pdf" 
+                    target="_blank"
+                    className="text-purple-400 hover:text-purple-300 text-sm px-3 py-1 rounded-lg border border-purple-400/30 hover:border-purple-400 transition-all duration-300 hover:bg-purple-400/10 inline-block"
+                  >
+                    📄 View Certificate
+                  </a>
+                </div>
+
+                {/* Android Developer Virtual Internship */}
+                <div className="p-4 rounded-lg bg-zinc-700/50 border border-zinc-600">
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="text-green-400 text-xl">📱</span>
+                    <span className="font-semibold text-white">Android Developer Virtual Internship</span>
+                  </div>
+                  <p className="text-blue-400 text-sm mb-3">Virtual Internship Certificate</p>
+                  <a 
+                    href="/media/certificates/VIGD.pdf" 
+                    target="_blank"
+                    className="text-green-400 hover:text-green-300 text-sm px-3 py-1 rounded-lg border border-green-400/30 hover:border-green-400 transition-all duration-300 hover:bg-green-400/10 inline-block"
                   >
                     📄 View Certificate
                   </a>
@@ -47,14 +95,14 @@ function Certificates() {
                 {/* Hackathon Certificate */}
                 <div className="p-4 rounded-lg bg-zinc-700/50 border border-zinc-600">
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-purple-400 text-xl">🔥</span>
+                    <span className="text-orange-400 text-xl">🔥</span>
                     <span className="font-semibold text-white">HackIndia Spark 3 Hackathon</span>
                   </div>
                   <p className="text-blue-400 text-sm mb-3">Finalist (Goa Level)</p>
                   <a 
-                    href="#" 
-                    className="text-purple-400 hover:text-purple-300 text-sm px-3 py-1 rounded-lg border border-purple-400/30 hover:border-purple-400 transition-all duration-300 hover:bg-purple-400/10 inline-block"
-                    onClick={() => alert('Upload your Hackathon certificate here')}
+                    href="/media/certificates/HackIndia.jpg" 
+                    target="_blank"
+                    className="text-orange-400 hover:text-orange-300 text-sm px-3 py-1 rounded-lg border border-orange-400/30 hover:border-orange-400 transition-all duration-300 hover:bg-orange-400/10 inline-block"
                   >
                     🏆 View Certificate
                   </a>
@@ -68,9 +116,9 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">2nd Place</p>
                   <a 
-                    href="#" 
+                    href="/media/certificates/TechnixCTF.jpg" 
+                    target="_blank"
                     className="text-cyan-400 hover:text-cyan-300 text-sm px-3 py-1 rounded-lg border border-cyan-400/30 hover:border-cyan-400 transition-all duration-300 hover:bg-cyan-400/10 inline-block"
-                    onClick={() => alert('Upload your CTF competition certificate here')}
                   >
                     🏆 View Certificate
                   </a>
