@@ -11,7 +11,7 @@ function Certificates() {
           <div className="bg-gradient-to-br from-zinc-800 via-zinc-900 to-black text-gray-100 shadow-xl rounded-2xl p-8 flex flex-col gap-4 border border-zinc-700 hover-lift hover-glow fade-in-scale relative overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 via-blue-600/10 to-cyan-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 shimmer"></div>
             <div className="relative z-10">
-              <div className="grid gap-6 md:grid-cols-2 text-lg text-gray-200">
+              <div className="space-y-6 text-lg text-gray-200">
                 {/* NPTEL Java DSA Certificate */}
                 <div className="p-4 rounded-lg bg-zinc-700/50 border border-zinc-600">
                   <div className="flex items-center gap-3 mb-2">
