@@ -20,7 +20,7 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">Silver Medal – NPTEL Online Certification</p>
                   <a 
-                    href="/media/certificates/DSA-Java-Result.pdf" 
+                    href="src/media/certificates/DSA-Java-Result.pdf" 
                     target="_blank"
                     className="text-green-400 hover:text-green-300 text-sm px-3 py-1 rounded-lg border border-green-400/30 hover:border-green-400 transition-all duration-300 hover:bg-green-400/10 inline-block"
                   >
@@ -36,7 +36,7 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">NPTEL Online Certification</p>
                   <a 
-                    href="/media/certificates/TJOCP.jpg" 
+                    href="src/media/certificates/TJOCP.jpg" 
                     target="_blank"
                     className="text-green-400 hover:text-green-300 text-sm px-3 py-1 rounded-lg border border-green-400/30 hover:border-green-400 transition-all duration-300 hover:bg-green-400/10 inline-block"
                   >
@@ -52,7 +52,7 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">Virtual Job Simulation Certificate</p>
                   <a 
-                    href="/media/certificates/AWS-solution.pdf" 
+                    href="src\media\certificates\AWS-solution.pdf" 
                     target="_blank"
                     className="text-blue-400 hover:text-blue-300 text-sm px-3 py-1 rounded-lg border border-blue-400/30 hover:border-blue-400 transition-all duration-300 hover:bg-blue-400/10 inline-block"
                   >
@@ -68,7 +68,7 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">Virtual Job Simulation Certificate</p>
                   <a 
-                    href="/media/certificates/EA-Forage.pdf" 
+                    href="src/media/certificates/EA-Forage.pdf" 
                     target="_blank"
                     className="text-purple-400 hover:text-purple-300 text-sm px-3 py-1 rounded-lg border border-purple-400/30 hover:border-purple-400 transition-all duration-300 hover:bg-purple-400/10 inline-block"
                   >
@@ -84,7 +84,7 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">Virtual Internship Certificate</p>
                   <a 
-                    href="/media/certificates/VIGD.pdf" 
+                    href="src/media/certificates/VIGD.pdf" 
                     target="_blank"
                     className="text-green-400 hover:text-green-300 text-sm px-3 py-1 rounded-lg border border-green-400/30 hover:border-green-400 transition-all duration-300 hover:bg-green-400/10 inline-block"
                   >
@@ -100,7 +100,7 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">Finalist (Goa Level)</p>
                   <a 
-                    href="/media/certificates/HackIndia.jpg" 
+                    href="src/media/certificates/HackIndia.jpg" 
                     target="_blank"
                     className="text-orange-400 hover:text-orange-300 text-sm px-3 py-1 rounded-lg border border-orange-400/30 hover:border-orange-400 transition-all duration-300 hover:bg-orange-400/10 inline-block"
                   >
@@ -116,7 +116,7 @@ function Certificates() {
                   </div>
                   <p className="text-blue-400 text-sm mb-3">2nd Place</p>
                   <a 
-                    href="/media/certificates/TechnixCTF.jpg" 
+                    href="src/media/certificates/TechnixCTF.jpg" 
                     target="_blank"
                     className="text-cyan-400 hover:text-cyan-300 text-sm px-3 py-1 rounded-lg border border-cyan-400/30 hover:border-cyan-400 transition-all duration-300 hover:bg-cyan-400/10 inline-block"
                   >
