@@ -59,17 +59,7 @@ function Contact() {
             <div className="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full opacity-20 float"></div>
             <div className="absolute bottom-4 left-4 w-8 h-8 bg-gradient-to-br from-cyan-500 to-green-500 rounded-full opacity-30 rotate-slow"></div>
           </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="mt-14 text-center z-10 relative">
-          <a
-            href="mailto:pavan123.pk813@gmail.com"
-            className="inline-block bg-zinc-800 text-blue-400 px-8 py-3 rounded-xl border-2 border-blue-400 hover:bg-blue-400 hover:text-zinc-900 text-lg font-bold shadow-lg transition-all duration-300"
-          >
-            Send Me a Message
-          </a>
-        </div>
+        </div>        
       </div>
     </section>
   );
