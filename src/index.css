@@ -33,6 +33,35 @@ code {
   }
 }
 
+/* Mobile-specific improvements */
+@media (max-width: 768px) {
+  /* Improve touch targets */
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Better text readability on mobile */
+  .text-enhanced {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+  }
+  
+  /* Reduce animation intensity on mobile for better performance */
+  .float {
+    animation-duration: 4s;
+  }
+  
+  .rotate-slow {
+    animation-duration: 30s;
+  }
+  
+  /* Improve scrolling */
+  html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 /* Custom Animations */
 @keyframes fadeIn {
   from { opacity: 0; }

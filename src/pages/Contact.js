@@ -2,33 +2,33 @@ import React from "react";
 
 function Contact() {
   return (
-    <section id="contact" className="flex flex-col items-center justify-center min-h-[70vh] py-20 px-4 fade-in">
-      <div className="rounded-2xl shadow-2xl p-12 w-full max-w-5xl border border-zinc-700 glass-enhanced relative overflow-hidden">
+    <section id="contact" className="flex flex-col items-center justify-center min-h-[70vh] py-10 md:py-20 px-4 fade-in">
+      <div className="rounded-2xl shadow-2xl p-6 md:p-12 w-full max-w-5xl border border-zinc-700 glass-enhanced relative overflow-hidden">
         <div className="absolute -inset-2 rounded-3xl pointer-events-none" style={{boxShadow: '0 0 40px 5px rgba(59, 130, 246, 0.1)'}}></div>
-        <h2 className="text-4xl font-bold mb-10 text-blue-100 slide-in-up z-10 relative text-enhanced">Contact Me</h2>
+        <h2 className="text-2xl md:text-4xl font-bold mb-6 md:mb-10 text-blue-100 slide-in-up z-10 relative text-enhanced">Contact Me</h2>
         
-        <div className="grid gap-8 md:grid-cols-2 z-10 relative">
+        <div className="grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-2 z-10 relative">
           {/* Contact Information Card */}
-          <div className="bg-gradient-to-br from-zinc-800 via-zinc-900 to-black text-gray-100 shadow-xl rounded-2xl p-8 flex flex-col gap-4 border border-zinc-700 hover-lift hover-glow fade-in-scale relative overflow-hidden group">
+          <div className="bg-gradient-to-br from-zinc-800 via-zinc-900 to-black text-gray-100 shadow-xl rounded-2xl p-6 md:p-8 flex flex-col gap-4 border border-zinc-700 hover-lift hover-glow fade-in-scale relative overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 via-blue-600/10 to-cyan-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 shimmer"></div>
             <div className="relative z-10">
-              <h3 className="text-2xl font-bold text-blue-100 mb-6 slide-in-left text-enhanced">Get In Touch</h3>
-              <div className="space-y-4 text-lg text-gray-200 slide-in-right text-enhanced">
+              <h3 className="text-xl md:text-2xl font-bold text-blue-100 mb-6 slide-in-left text-enhanced">Get In Touch</h3>
+              <div className="space-y-4 text-base md:text-lg text-gray-200 slide-in-right text-enhanced">
                 <div className="flex items-center gap-3">
-                  <span className="text-blue-400 text-xl">📧</span>
-                  <a href="mailto:pavan123.pk813@gmail.com" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-300">
+                  <span className="text-blue-400 text-lg md:text-xl">📧</span>
+                  <a href="mailto:pavan123.pk813@gmail.com" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-300 text-sm md:text-base">
                     pavan123.pk813@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-blue-400 text-xl">📱</span>
-                  <a href="tel:+919130455109" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-300">
+                  <span className="text-blue-400 text-lg md:text-xl">📱</span>
+                  <a href="tel:+919130455109" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-300 text-sm md:text-base">
                     +91 9130455109
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-blue-400 text-xl">📍</span>
-                  <span>Goa, India</span>
+                  <span className="text-blue-400 text-lg md:text-xl">📍</span>
+                  <span className="text-sm md:text-base">Goa, India</span>
                 </div>
               </div>
             </div>
@@ -37,20 +37,20 @@ function Contact() {
           </div>
 
           {/* Social Links Card */}
-          <div className="bg-gradient-to-br from-zinc-800 via-zinc-900 to-black text-gray-100 shadow-xl rounded-2xl p-8 flex flex-col gap-4 border border-zinc-700 hover-lift hover-glow fade-in-scale relative overflow-hidden group">
+          <div className="bg-gradient-to-br from-zinc-800 via-zinc-900 to-black text-gray-100 shadow-xl rounded-2xl p-6 md:p-8 flex flex-col gap-4 border border-zinc-700 hover-lift hover-glow fade-in-scale relative overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 via-blue-600/10 to-cyan-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 shimmer"></div>
             <div className="relative z-10">
-              <h3 className="text-2xl font-bold text-blue-100 mb-6 slide-in-left text-enhanced">Connect With Me</h3>
-              <div className="space-y-4 text-lg text-gray-200 slide-in-right text-enhanced">
+              <h3 className="text-xl md:text-2xl font-bold text-blue-100 mb-6 slide-in-left text-enhanced">Connect With Me</h3>
+              <div className="space-y-4 text-base md:text-lg text-gray-200 slide-in-right text-enhanced">
                 <div className="flex items-center gap-3">
-                  <span className="text-blue-400 text-xl">💼</span>
-                  <a href="https://www.linkedin.com/in/pavan-kumar092" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-300">
+                  <span className="text-blue-400 text-lg md:text-xl">💼</span>
+                  <a href="https://www.linkedin.com/in/pavan-kumar092" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-300 text-sm md:text-base">
                     LinkedIn Profile
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-blue-400 text-xl">🐙</span>
-                  <a href="https://github.com/Pavan0989" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-300">
+                  <span className="text-blue-400 text-lg md:text-xl">🐙</span>
+                  <a href="https://github.com/Pavan0989" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-300 text-sm md:text-base">
                     GitHub Profile
                   </a>
                 </div>

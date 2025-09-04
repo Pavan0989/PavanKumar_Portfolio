@@ -31,19 +31,19 @@ const projectsData = [
 
 function Projects() {
   return (
-    <section id="projects" className="flex flex-col items-center justify-center min-h-[70vh] py-20 px-4 fade-in">
-      <div className="rounded-2xl shadow-2xl p-12 w-full max-w-5xl border border-zinc-700 glass-enhanced relative overflow-hidden">
+    <section id="projects" className="flex flex-col items-center justify-center min-h-[70vh] py-10 md:py-20 px-4 fade-in">
+      <div className="rounded-2xl shadow-2xl p-6 md:p-12 w-full max-w-5xl border border-zinc-700 glass-enhanced relative overflow-hidden">
         <div className="absolute -inset-2 rounded-3xl pointer-events-none" style={{boxShadow: '0 0 40px 5px rgba(59, 130, 246, 0.1)'}}></div>
-        <h2 className="text-4xl font-bold mb-10 text-blue-100 slide-in-up z-10 relative text-enhanced">Projects</h2>
-        <div className="grid gap-10 md:grid-cols-2 z-10 relative">
+        <h2 className="text-2xl md:text-4xl font-bold mb-6 md:mb-10 text-blue-100 slide-in-up z-10 relative text-enhanced">Projects</h2>
+        <div className="grid gap-6 md:gap-10 grid-cols-1 md:grid-cols-2 z-10 relative">
           {projectsData.map((project, idx) => (
             <ProjectCard key={idx} {...project} />
           ))}
         </div>
-        <div className="mt-14 text-center z-10 relative">
+        <div className="mt-10 md:mt-14 text-center z-10 relative">
           <a
             href="https://github.com/Pavan0989"
-            className="inline-block bg-zinc-800 text-blue-400 px-8 py-3 rounded-xl border-2 border-blue-400 hover:bg-blue-400 hover:text-zinc-900 text-lg font-bold shadow-lg transition-all duration-300"
+            className="inline-block bg-zinc-800 text-blue-400 px-6 md:px-8 py-3 rounded-xl border-2 border-blue-400 hover:bg-blue-400 hover:text-zinc-900 text-base md:text-lg font-bold shadow-lg transition-all duration-300"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -2,25 +2,25 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 text-gray-300 text-center py-8 mt-16 border-t border-zinc-700 relative overflow-hidden">
+    <footer className="bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 text-gray-300 text-center py-6 md:py-8 mt-16 border-t border-zinc-700 relative overflow-hidden">
       {/* Background glow effect */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 via-purple-600/5 to-cyan-600/5"></div>
       
       {/* Main content */}
       <div className="relative z-10">
-        <p className="text-base font-medium text-blue-100 mb-4">
+        <p className="text-sm md:text-base font-medium text-blue-100 mb-3 md:mb-4">
           © {new Date().getFullYear()} Pavan Kumar. All rights reserved.
         </p>
         
         {/* Social links */}
-        <div className="flex justify-center space-x-6 mb-4">
+        <div className="flex justify-center space-x-4 md:space-x-6 mb-3 md:mb-4">
           <a 
             href="https://github.com/Pavan0989" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110"
           >
-            <span className="text-xl">🐙</span>
+            <span className="text-lg md:text-xl">🐙</span>
           </a>
           <a 
             href="https://www.linkedin.com/in/pavan-kumar092" 
@@ -28,18 +28,18 @@ function Footer() {
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110"
           >
-            <span className="text-xl">💼</span>
+            <span className="text-lg md:text-xl">💼</span>
           </a>
           <a 
             href="mailto:pavan123.pk813@gmail.com"
             className="text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110"
           >
-            <span className="text-xl">📧</span>
+            <span className="text-lg md:text-xl">📧</span>
           </a>
         </div>
         
         {/* Additional info */}
-        <p className="text-sm text-gray-500">
+        <p className="text-xs md:text-sm text-gray-500">
           Built with React & Tailwind CSS
         </p>
       </div>
