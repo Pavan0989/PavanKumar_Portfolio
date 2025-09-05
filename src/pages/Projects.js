@@ -7,19 +7,19 @@ const projectsData = [
     title: "MedCare – DBMS-based Healthcare Portal",
     description:
       "Healthcare management platform featuring Admin-User authentication, patient/employee registration, appointment scheduling, and prescription modules. Role: Full-Stack Developer. Technologies: HTML, CSS, JavaScript, PHP, SQL.",
-    github: "https://github.com/Pavan0989/medcare",
+    github: "https://github.com/Pavan0989/MedCare",
   },
   {
     title: "Aadhar Camp Project",
     description:
       "System for automatic PDF generation of official letters and camp attendance management for government Aadhar camps. Role: Full-Stack Developer. Technologies: React.js, Tailwind CSS, MySQL.",
-    github: "https://github.com/Pavan0989/aadhar-camp",
+    github: "https://github.com/Pavan0989/AdhaarCamp",
   },
   {
     title: "AI-powered Surveillance and Intrusion Detection for 6TTR",
     description:
       "IoT-based surveillance platform with real-time border monitoring, OCR-based ID scanning, and facial recognition. Implemented two-factor personnel authentication, intrusion detection with sensors and AI, and vehicle authorization. Role: AI/ML & Web Developer. Technologies: Raspberry Pi, Python, YOLOv8, Flask, OCR.",
-    github: "https://github.com/Pavan0989/ai-surveillance",
+    github: "https://github.com/Pavan0989/AI_Survillean_6TTR",
   },
   {
     title: "Dream Bid Properties – Real Estate Enquiry Website",
